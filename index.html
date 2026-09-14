@@ -17,28 +17,6 @@
     --font-hand:'Caveat','Segoe Script',cursive;
     color-scheme: light;
   }
-  /* dark palette duplicated below for the [data-theme="dark"] override — keep both in sync */
-  @media (prefers-color-scheme: dark){
-    :root:not([data-theme="light"]){
-      --bg:#1D1712; --surface:#28211A; --surface-2:#332A21;
-      --ink:#F3ECDD; --ink-soft:#B9AA96;
-      --leaf:#8FBE77; --leaf-deep:#B7DB8F;
-      --lettuce:#B7DB8F; --tomato:#FF7A5F; --tomato-deep:#FF9680; --yellow:#F0D06B;
-      --line:rgba(243,236,221,0.16); --shadow:rgba(0,0,0,0.5);
-      --band:#22331D; --band-ink:#F3ECDD; --band-soft:#3C5233;
-      color-scheme: dark;
-    }
-  }
-  :root[data-theme="dark"]{
-    --bg:#1D1712; --surface:#28211A; --surface-2:#332A21;
-    --ink:#F3ECDD; --ink-soft:#B9AA96;
-    --leaf:#8FBE77; --leaf-deep:#B7DB8F;
-    --lettuce:#B7DB8F; --tomato:#FF7A5F; --tomato-deep:#FF9680; --yellow:#F0D06B;
-    --line:rgba(243,236,221,0.16); --shadow:rgba(0,0,0,0.5);
-    --band:#22331D; --band-ink:#F3ECDD; --band-soft:#3C5233;
-    color-scheme: dark;
-  }
-
   *{box-sizing:border-box;}
   html{scroll-behavior:smooth;}
   body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:1.0625rem;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden;}
